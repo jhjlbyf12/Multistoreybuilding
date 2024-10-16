@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let apartment_number = +prompt('Введите номер квартиры');
+
+        if(apartment_number >= 1 && apartment_number <= 20){                    
+            alert('Первый подъезд');
+        }   
+
+            else if(apartment_number >=21 && apartment_number <=40){
+                alert('Второй подъезд');
+            }
+
+
+            else if(apartment_number >= 41 && apartment_number <= 60){
+                alert('Третий подъезд');              
+            }
+         
+            
+        if((apartment_number >= 1 && apartment_number <= 4)||(apartment_number >= 21 && apartment_number <= 24 )|| (apartment_number >= 41 && apartment_number <= 44)){
+                alert('Первый этаж');
+                }                
+                else if((apartment_number >=5 && apartment_number <=8)||(apartment_number >= 25 && apartment_number <= 28) || (apartment_number >= 45 && apartment_number <= 48)){
+                    alert('Второй этаж');
+                }
+                else if((apartment_number >=9 && apartment_number <=12) || (apartment_number >= 29 && apartment_number <= 32) || (apartment_number >=49 && apartment_number <= 52)){
+                    alert('Третий этаж');
+                }
+                else if((apartment_number >= 13 && apartment_number <=16)|| (apartment_number >= 33 && apartment_number <=36) || (apartment_number >=53 && apartment_number <=56)){
+                    alert('Четвертый этаж')
+                }
+                else if((apartment_number >= 17 && apartment_number <=20) || (apartment_number >= 37 && apartment_number <=40) || (apartment_number >=57 && apartment_number <= 60 )){
+                    alert('Пятый этаж')
+                }            
+             
+    </script>
+</body>
+</html>
